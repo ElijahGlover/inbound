@@ -1,0 +1,9 @@
+package: github.com/elijahglover/inbound
+import:
+- package: k8s.io/client-go
+  version: v10.0.0
+  subpackages:
+  - kubernetes
+  - tools/clientcmd
+- package: github.com/vulcand/oxy
+  version: c34b0c501e43223bc816ac9b40b0ac29c44c8952
